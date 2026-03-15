@@ -1,0 +1,41 @@
+# NNuker - Generated Files
+NNuker_Backup_*/
+*.log
+Scan_Report.txt
+Svc_Backup.reg
+
+# PowerShell
+*.ps1xml
+*.psd1
+*.psm1_*
+*_manifest.xml
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# JetBrains IDEs
+.idea/
+*.iml
+
+# Test/Development
+test_*/
+debug_*/
+temp_*/
+
+# Logs
+*.log
+logs/
