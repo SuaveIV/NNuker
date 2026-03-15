@@ -204,7 +204,7 @@ The batch file handles elevation automatically.
 
 ## Audit Report (Level 0)
 
-Level 0 creates a report at `~/Desktop/Nahimic_Backup_*/Scan_Report.txt`:
+Level 0 creates a report at `~/Desktop/NNuker_Backup_*/Scan_Report.txt`:
 
 ```text
 --- NAHIMIC SCAN REPORT ---
@@ -260,7 +260,7 @@ Use this to see what you're dealing with before you start deleting things.
 
 1. Search → "Create a restore point"
 2. Click System Restore
-3. Select restore point: `Nahimic_Nuke_L[X]`
+3. Select restore point
 4. Follow the wizard
 
 ### **Option 2: Manual Backup**
@@ -287,7 +287,7 @@ Examples:
 
 ```powershell
 # Silent Level 3 with custom backup
-.\NNuker.ps1 -Level 3 -Store "D:\Backups\Nahimic"
+.\NNuker.ps1 -Level 3 -Store "D:\Backups\NNuker"
 
 # Nuclear with auto-restart, no prompts
 .\NNuker.ps1 -Level 5 -Force
